@@ -12,7 +12,7 @@ const config = {
     instagram: '', // Instagram username
   },
   comment: {
-    utterances: 'https://github.com/senasoon', // Your GitHub repository
+    utterances: 'https://github.com/senasoon/gatsby-starter/lavender', // Your GitHub repository
     disqusShortName: '', // Disqus short name
   },
   icon: 'src/images/profile.png', // path of blog icon
