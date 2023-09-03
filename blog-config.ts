@@ -2,7 +2,7 @@ const config = {
   title: 'senasoon archive', // Blog name
   author: 'senasoon', // Your name
   description: '빠르게 실패하기',
-  siteUrl: 'https://senasoon.netlify.app/',
+  siteUrl: 'https://senasoon.netlify.app',
   thumbnail: '/thumbnails/main.png', // Default blog thumbnail. i.e. '/thumbnails/main.png'
   social: {
     github: 'senasoon', // GitHub username
