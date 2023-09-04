@@ -6,8 +6,10 @@ import Seo from '~/components/Seo';
 import { useSeo } from '~/hooks/useSeo';
 import Layout from '~/layout';
 
-
-const AboutPage = ({ data, location }: PageProps<GatsbyTypes.AboutPageQuery>) => {
+const AboutPage = ({
+  data,
+  location,
+}: PageProps<GatsbyTypes.AboutPageQuery>) => {
   const siteMetadata = useSeo().site?.siteMetadata;
 
   const siteUrl = data.site?.siteMetadata?.siteUrl ?? '';
@@ -36,9 +38,12 @@ const AboutPage = ({ data, location }: PageProps<GatsbyTypes.AboutPageQuery>) =>
         noSiteName
       />
       <Profile />
-      <h1>I am</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque lectus, varius in vehicula id, viverra eu diam. Duis pellentesque rutrum tincidunt. Nullam bibendum gravida blandit. Maecenas quis enim justo. Sed malesuada lectus mi, sit amet hendrerit nisl consequat sed. Proin semper ex nec nisi egestas gravida. Cras mattis feugiat tempor. Donec sollicitudin est metus, nec posuere mauris dictum at. Praesent laoreet massa pulvinar laoreet dapibus. Sed efficitur lacus eu ligula fermentum, ut sodales justo sagittis. Mauris sit amet vehicula enim.</p>
-      <p>In sed gravida libero. Curabitur accumsan massa sed iaculis dictum. Cras est elit, dignissim a convallis ac, condimentum nec justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce varius elit massa. Donec feugiat mi orci, sit amet viverra libero vestibulum in. Donec tristique elit non finibus fermentum. Fusce vestibulum accumsan elit id euismod. Donec quis nibh lobortis eros consequat elementum id non lacus. Mauris eget velit pellentesque, gravida ipsum ut, varius leo. Donec eget mi et diam euismod elementum a in massa.</p>
+      <h1>I am ... </h1>
+      <p>안녕하세요! 프론트엔드 개발자 박세은입니다🧤</p>
+      <p>✓ 공부한 것을 오래 기억하기 위해 기록하고 있습니다.</p>
+      <p>✓ 고객중심 디자인과 개선에 관심이 많습니다.</p>
+      <p>✓ 두려움에 직면하고 도전하는 사람입니다.</p>
+      <p>✓ 지속적으로 성장하고 협력하는 개발자가 되고 싶습니다.</p>
     </Layout>
   );
 };
