@@ -8,7 +8,7 @@ thumbnail: /thumbnails/hello-world.jpg
 
 <p align="center"><img src="./type-challenge.jpeg"/></p>
 
-### ✔️ **문제**
+## 문제
 
 https://github.com/type-challenges/type-challenges/blob/main/questions/00189-easy-awaited/README.md
 
@@ -27,7 +27,7 @@ type Result = MyAwaited<ExampleType>; // string
 
 <br/>
 
-### ✔️ **답안**
+## 답안
 
 https://github.com/type-challenges/type-challenges/issues/18837
 
@@ -51,7 +51,7 @@ type MyAwaited<T extends PromiseLike<any | PromiseLike<any>>> =
 
 <br/>
 
-### 참고
+## 참고
 
 https://brunch.co.kr/@brunch-test/11
 
