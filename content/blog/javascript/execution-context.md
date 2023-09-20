@@ -36,7 +36,7 @@ eval 함수 내부의 실행 컨텍스트
 
 ### 스택(Stack)이란?
 
-<p align="center"><img src="./stack.png"/></p>
+<p align="center"><img src="/javascript/stack.png"/></p>
 
 스택은 출입구가 하나뿐인 깊은 우물 같은 데이터 구조이다. 비어있는 스택에 데이터 a, b, c, d를 저장했다면 꺼낼 때는 반대로 d, c, b, a의 순서로 꺼내지는 `후입선출(Last In First Out)` 방식이다.
 
@@ -48,7 +48,7 @@ eval 함수 내부의 실행 컨텍스트
 
 아래 이미지를 보면 더 쉽게 이해가 가능하다.
 
-<p align="center"><img src="./execution-context.gif"/></p>
+<p align="center"><img src="/javascript/execution-context.gif"/></p>
 
 이미지의 설명은 다음과 같다.
 
@@ -93,7 +93,7 @@ Variable Environment와 Lexical Environment의 내부는 `환경 레코드(Envir
 🧤 이 많은 설명은 아래 간단한 이미지로 이해해도 좋을 것 같다. 출처는 하루님의 실행 컨텍스트 영상에서 가져왔다.
 실행 컨텍스트에는 렉시컬 환경이 있는데 그 안에는 Record와 Outer로 구성되어 있다.
 
-<p align="center"><img src="./record-outer.png"/></p>
+<p align="center"><img src="/javascript/record-outer.png"/></p>
 
 <br/>
 
@@ -216,7 +216,7 @@ foo = 1; // 할당문에서 할당 단계가 실행된다.
 console.log(foo); // 1
 ```
 
-<p align="center"><img src="./tdz.png"/></p>
+<p align="center"><img src="/javascript/tdz.png"/></p>
 
 [이미지 출처](https://velog.io/@koseony/javaScript-%EB%BF%8C%EC%8B%9C%EA%B8%B0-var-let-const%EC%9D%98-%ED%8A%B9%EC%A7%95%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 
@@ -253,7 +253,7 @@ console.log(foo); // ReferenceError: foo is not defined
 
 아래 이미지를 보면 `const`의 `TDZ`를 확인할 수 있다.
 
-<p align="center"><img src="./tdz-const.png"/></p>
+<p align="center"><img src="/javascript/tdz-const.png"/></p>
 
 [이미지 출처](https://dmitripavlutin.com/javascript-variables-and-temporal-dead-zone/)
 
